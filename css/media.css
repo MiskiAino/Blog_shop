@@ -1,0 +1,313 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .content_header{
+        margin-top: 40px;
+        text-align: center;
+    }
+    .content_header .bold_text{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .content_header .regular_text{
+        font-size: 15px;
+    }
+    .button_l{
+        margin: auto;
+        margin-bottom:  20px;
+    }
+    .video_m{
+        height: 200px;
+        width: 300px;
+    }
+    /*вторая секция*/
+    .provide{
+        text-align: center;
+    }
+    .text_h1{
+        font-size: 23px;
+        line-height: 30px;
+    }
+    .text_p{
+        font-size:15px;
+    }
+    .button_learn{
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    .block_provide{
+        background-position:  top right;
+    }
+    .block_provide h4{
+        font-size: 20px;
+        text-align: left;
+    }
+    .blocks_3s .col-md-3{
+        margin: 10px;
+    }
+    #subscribe h4{
+        font-size: 25px;
+    }
+    #subscribe p{
+        font-size: 15px;
+    }
+    #subscribe .input_mail {
+        margin-left: 0;
+        text-align: center;
+    }
+    #subscribe .mail_line{
+        width: 100%;
+    }
+    #subscribe .mail_submit{
+        margin: 0;
+        margin-top: 20px;
+    }
+    .video_m{
+        margin: auto;
+        width: 100%;
+    }
+    .blocks_3s .col-md-3{
+        margin: 0;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .content_header{
+        margin-top: 40px;
+        text-align: center;
+    }
+    .content_header .bold_text{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .content_header .regular_text{
+        font-size: 15px;
+    }
+    .button_l{
+        margin: auto;
+        margin-bottom:  20px;
+    }
+    .video_m{
+        height: 200px;
+        width: 300px;
+    }
+    /*вторая секция*/
+    .provide{
+        text-align: center;
+    }
+    .text_h1{
+        font-size: 23px;
+        line-height: 30px;
+    }
+    .text_p{
+        font-size:15px;
+    }
+    .button_learn{
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    .block_provide{
+        background-position:  top right;
+    }
+    .block_provide h4{
+        font-size: 20px;
+        text-align: left;
+    }
+    .blocks_3s .col-md-3{
+        margin: 10px;
+    }
+    #subscribe h4{
+        font-size: 25px;
+    }
+    #subscribe p{
+        font-size: 15px;
+    }
+    #subscribe .input_mail {
+        margin-left: 0;
+        text-align: center;
+    }
+    #subscribe .mail_line{
+        width: 100%;
+    }
+    #subscribe .mail_submit{
+        margin: 0;
+        margin-top: 20px;
+    }
+    .video_m{
+        margin: auto;
+        width: 100%;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .content_header{
+        margin-top: 40px;
+        text-align: center;
+    }
+    .content_header .bold_text{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .content_header .regular_text{
+        font-size: 15px;
+    }
+    .button_l{
+        margin: auto;
+        margin-bottom:  20px;
+    }
+    .video_m{
+        height: 200px;
+        width: 300px;
+    }
+    /*вторая секция*/
+    .provide{
+        text-align: center;
+    }
+    .text_h1{
+        font-size: 23px;
+        line-height: 30px;
+    }
+    .text_p{
+        font-size:15px;
+    }
+    .button_learn{
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    .block_provide{
+        background-position:  top right;
+    }
+    .block_provide h4{
+        font-size: 20px;
+        text-align: left;
+    }
+    .blocks_3s .col-md-3{
+        margin: 10px;
+    }
+    #subscribe h4{
+        font-size: 25px;
+    }
+    #subscribe p{
+        font-size: 15px;
+    }
+    #subscribe .input_mail {
+        margin-left: 0;
+        text-align: center;
+    }
+    #subscribe .mail_line{
+        width: 100%;
+    }
+    #subscribe .mail_submit{
+        margin: 0;
+        margin-top: 20px;
+    }
+    .video_m{
+        margin: auto;
+        width: 100%;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+    .content_header{
+        margin-top: 40px;
+        text-align: center;
+    }
+    .content_header .bold_text{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .content_header .regular_text{
+        font-size: 15px;
+    }
+    .button_l{
+        margin: auto;
+        margin-bottom:  20px;
+    }
+    .video_m{
+        height: 200px;
+        width: 300px;
+    }
+    /*вторая секция*/
+    .provide{
+        text-align: center;
+    }
+    .text_h1{
+        font-size: 23px;
+        line-height: 30px;
+    }
+    .text_p{
+        font-size:15px;
+    }
+    .button_learn{
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    .block_provide{
+        background-position:  top right;
+    }
+    .block_provide h4{
+        font-size: 20px;
+        text-align: left;
+    }
+    .blocks_3s .col-md-3{
+        margin: 10px;
+    }
+    #subscribe h4{
+        font-size: 25px;
+    }
+    #subscribe p{
+        font-size: 15px;
+    }
+    #subscribe .input_mail {
+        margin-left: 0;
+        text-align: center;
+    }
+    #subscribe .mail_line{
+        width: 100%;
+    }
+    #subscribe .mail_submit{
+        margin: 0;
+        margin-top: 20px;
+    }
+    .video_m{
+        margin: auto;
+        width: 100%;
+    }
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
