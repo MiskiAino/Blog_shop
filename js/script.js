@@ -10,9 +10,9 @@ $(document).ready(function () {
 
 //slick
     $('.slider-for').slick({
-        slidesToShow: 1,
         arrows: false,
-        asNavFor: '.slider-nav'
+        asNavFor: '.slider-nav',
+        adaptiveHeight:true
     });
     $('.slider-nav').slick({
         slidesToShow: 3,
