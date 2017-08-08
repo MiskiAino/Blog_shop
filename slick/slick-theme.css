@@ -71,7 +71,7 @@
     line-height: 1;
 
     opacity: .75;
-    color: white;
+    color: #ff000e;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -79,38 +79,94 @@
 
 .slick-prev
 {
-    left: -25px;
+    left: -60px;
 }
 [dir='rtl'] .slick-prev
 {
     right: -25px;
     left: auto;
 }
+.slick-prev{
+    width: 65px;
+    height: 65px;
+}
+.slick-prev{
+    background-image: url("../img/arrow_left.png");
+    background-repeat: no-repeat;
+    z-index: 1 ;
+}
+.slick-prev:visited{
+    background-image: url("../img/arrow_left.png");
+}
+.slick-prev:hover{
+    background-image: url("../img/arrow_left.png");
+}
+.slick-prev:link{
+    background-image: url("../img/arrow_left.png");
+}
+.slick-prev:active{
+    background-image: url("../img/arrow_left.png");
+}
+.slick-prev:focus{
+    background-image: url("../img/arrow_left.png");
+}
 .slick-prev:before
 {
-    content: '←';
+    z-index: 1 ;
+    background-image: url("../img/arrow_left.png");
+    content: '';
+    width: 34px;
+    height: 65px;
 }
 [dir='rtl'] .slick-prev:before
 {
-    content: '→';
+    background-image: url("../img/arrow-right.png");
+    content: 'L';
 }
 
 .slick-next
 {
-    right: -25px;
+    right: -60px;
 }
 [dir='rtl'] .slick-next
 {
     right: auto;
-    left: -25px;
+}
+.slick-next{
+    width: 65px;
+    height: 65px;
+}
+.slick-next{
+    z-index: 1 ;
+    background-image: url("../img/arrow-right.png");
+    background-repeat: no-repeat;
+}
+.slick-next:visited{
+    background-image: url("../img/arrow-right.png");
+}
+.slick-next:hover{
+    background-image: url("../img/arrow-right.png");
+}
+.slick-next:link{
+    background-image: url("../img/arrow-right.png");
+}
+.slick-next:active{
+    background-image: url("../img/arrow-right.png");
+}
+.slick-next:focus{
+    background-image: url("../img/arrow-right.png");
 }
 .slick-next:before
 {
-    content: '→';
+    background-image: url("../img/arrow-right.png");
+    content: '';
+    width: 34px;
+    height: 65px;
 }
 [dir='rtl'] .slick-next:before
 {
-    content: '←';
+    background-image: url("../img/arrow-right.png");
+    content: 'R';
 }
 
 /* Dots */

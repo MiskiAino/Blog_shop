@@ -8,5 +8,19 @@ $(document).ready(function () {
     }).eq(0).addClass("active");
     //____________________________________________________________________-
 
+//slick
+    $('.slider-for').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        asNavFor: '.slider-nav'
+    });
+    $('.slider-nav').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        asNavFor: '.slider-for',
+        dots: true,
+        focusOnSelect: true
+    });
 
 });
