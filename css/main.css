@@ -4,6 +4,7 @@
 body{
     font: 1em/1.6em sans-serif;
     color: #353535;
+    overflow-x: hidden !important;
 }
 
 img{
@@ -95,9 +96,11 @@ a{
 #tabs_vertical{
     margin-top: 20px;
 }
+.slick-slide{
+
+}
 .slider-for{
     width: 80%;
-    display: block;
     margin: 0 auto;
     margin-bottom: 20px;
     background-color: #c4c0b1;
@@ -105,10 +108,12 @@ a{
 }
 .slider-nav{
     width: 50%;
-    display: block;
     margin: 0 auto;
 }
 .slider-nav img{
     padding: 0 3px;
     box-shadow: 0 0 16px;
+}
+.slick-track{
+    padding-right: 3700px;
 }

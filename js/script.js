@@ -11,7 +11,6 @@ $(document).ready(function () {
 //slick
     $('.slider-for').slick({
         slidesToShow: 1,
-        slidesToScroll: 1,
         arrows: false,
         asNavFor: '.slider-nav'
     });
