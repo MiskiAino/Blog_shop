@@ -68,5 +68,8 @@
     .slider-for{
         width: 100%;
     }
+    .tabs{
+        text-align: center;
+    }
 
 }
