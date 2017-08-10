@@ -2,7 +2,9 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-
+    body  a{
+        font-size: 15px;
+    }
 }
 
 /* Medium Devices, Desktops */

@@ -1,4 +1,16 @@
 $(document).ready(function () {
+    //ADAPTIVE NAVIGATION
+
+    $(document).ready(function () {
+        $(".menu-trigger").click(function () {
+            $("nav ul").slideToggle(500);
+        });
+        $(window).resize(function () {
+            if($(window).width()>700){
+                $("nav ul").removeAttr("style");
+            }
+        });
+    });
 
     //TABS
     $(".tab_item").not(":first").hide();
@@ -9,5 +21,4 @@ $(document).ready(function () {
     //____________________________________________________________________-
 
 
-    $("body").css("background-color", "blue")
 });
