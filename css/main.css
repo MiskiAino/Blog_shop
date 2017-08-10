@@ -70,6 +70,9 @@ nav a{
     text-align: right;
     font-size: 20px;
 }
+.navigation_list li a{
+    border-bottom: solid 5px transparent;
+}
 nav a:hover{
     border-bottom: solid 5px #11749e;
     color: #FFFFFF;
@@ -80,12 +83,24 @@ nav a:link{
 .menu-trigger{
     text-align: center;
     display: none;
+    margin: 0;
+}
+@media screen and (max-width: 990px){
+    .logo a{
+        text-align: center;
+    }
+    .logo{
+        width: 100%;
+    }
 }
 @media screen and (max-width: 700px) {
     nav li {
         display: block;
         text-align: center;
         border-bottom: 1px solid #222222;
+    }
+    nav a{
+        margin: 0;
     }
     nav ul{
         padding-left: 0;
@@ -104,10 +119,8 @@ nav a:link{
 
     }
 }
-.logo{
-    float: left;
-}
 body header .logo{
+    float: left;
     margin: 0;
     padding: 0;
 }
@@ -117,4 +130,9 @@ body header .logo a{
 }
 body header .logo a:hover{
     border-bottom: none;
+}
+.socio li a{
+    border-bottom: none;
+    margin: 0;
+    padding:10px;
 }
