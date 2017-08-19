@@ -76,8 +76,7 @@ nav a{
     border-bottom: solid 5px transparent;
 }
 nav a:hover{
-    border-radius:  0 0 10px 0;
-    border-bottom: solid 5px;
+    border-bottom: solid 5px #2aabd2;
     color: #FFFFFF;
 }
 nav a:link{
@@ -100,6 +99,11 @@ nav a:link{
     }
 }
 @media screen and (max-width: 688px) {
+    nav a:hover{
+        border-radius:  0 0 10px 0;
+        border-bottom: solid 5px;
+        color: #FFFFFF;
+    }
     header{
         height: auto;
     }
