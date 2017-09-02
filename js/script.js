@@ -1,4 +1,24 @@
 $(document).ready(function () {
+
+    $('.slider_area').slick({
+        autoplay: true,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        arrows: true
+    });
+
+
+    //TABS
+    $(".tab_item").not(":first").hide();
+    $(".wrapper .tab").click(function() {
+        $(".wrapper .tab").removeClass("active").eq($(this).index()).addClass("active");
+        $(".tab_item").hide().eq($(this).index()).fadeIn()
+    }).eq(0).addClass("active");
+    //____________________________________________________________________-
+
+});
+$(document).ready(function () {
     //ADAPTIVE NAVIGATION
 
     $(document).ready(function () {
@@ -10,25 +30,5 @@ $(document).ready(function () {
                 $("nav ul").removeAttr("style");
             }
         });
-    });
-
-    //TABS
-    $(".tab_item").not(":first").hide();
-    $(".wrapper .tab").click(function() {
-        $(".wrapper .tab").removeClass("active").eq($(this).index()).addClass("active");
-        $(".tab_item").hide().eq($(this).index()).fadeIn()
-    }).eq(0).addClass("active");
-    //____________________________________________________________________-
-
-
-//    плавная прокрутка якоря
-
-    $('a[data-target^="anchor"]').bind('click.smoothscroll', function () {
-       var target = $(this).attr('href'),
-           bl_top = $(target).offset().top;
-       $('body, html').animate({
-           scrollTop:bl_top
-       }, 700);
-        return false
     });
 });
