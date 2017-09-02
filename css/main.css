@@ -42,7 +42,6 @@ header .nav-menu li{
 .content-area{
     width:60%;
     float: left;
-    height: 200px;
 }
 .blog-wrap{
     text-align: left;
@@ -83,7 +82,6 @@ header .nav-menu li{
     max-height: 377px;
 }
 #main{
-    height: 900px;
     padding: 0 30px 100px 30px;
     background-color: #fff;
 }
@@ -151,7 +149,6 @@ header .nav-menu li{
     width: 32%;
     cursor: pointer;
     border: solid 1px #ddd;
-    padding: .5em 1em;
     margin-bottom: -1px;
     background-color: #00aedb;
     display: inline-block;
@@ -192,8 +189,8 @@ header .nav-menu li{
     padding: 15px 0;
     border-bottom: 1px solid#c0c0c0;
 }
-.nav_blog_element:nth-child("last"){
-    border: aqua solid 2px;
+.nav_blog_element:nth-last-child(1){
+    border: none;
 }
 .nav-blog_img{
     max-width: 81px;
@@ -215,4 +212,30 @@ header .nav-menu li{
     font-size: 13px;
     font-weight: 300;
     color: #494949;
+}
+/*>>>>>>>>>>>>>>>>>>*/
+.second_nav-element .sec_title-el{
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 700;
+    width: 100%;
+    background-color: #5261ac;
+    text-align: left;
+    color: #ffffff;
+    padding: 7px 10px;
+}
+.medication{
+    color: #59bee8 ;
+}
+.second_bl_son{
+    padding: 0 !important;
+}
+.archives_p{
+    text-align: left;
+    padding-left: 20px;
+}
+.second_bl_son .ddd{
+    padding-top: 5px;
+    max-width: 12px;
+    float: left;
 }
