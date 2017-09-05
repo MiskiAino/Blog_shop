@@ -25,16 +25,85 @@ header{
 header .logo h1{
     margin: 0;
 }
+.socio{
+    margin-top: 15px;
+    margin-top: 16px;
+}
 header .socio ul li{
     display: inline-block;
+}
+.FTop_nav-menu{
+    padding: 20px 0;
+}
+.form{
+    width: auto;
+    margin-top: 17px;
+}
+.input_text_rdl{
+    width: 70%;
+    height: 36px;
+    float: left;
+}
+.input_btn{
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: 700;
+    color: #ffffff;
+    height: 36px;
+    float: left;
+    width: 30%;
+    background-color: #00aedb;
+    border: none;
 }
 header .nav-menu{
     margin: 0;
     padding: 0;
 }
 header .nav-menu li{
+    float: left;
     display: inline-block;
-    padding: 15px;
+    text-decoration-line: none;
+}
+header .nav-menu li:nth-child(1) a{
+    background-color: #19a5e0;
+}
+header .nav-menu li:nth-child(2) a{
+    background-color: #8cc63f;
+}
+header .nav-menu li:nth-child(3) a{
+     background-color: #5261ac;
+ }
+header .nav-menu li:nth-child(4) a{
+    background-color: #00aedb;
+}
+header .nav-menu li:nth-child(5) a{
+    background-color: #f78f1d;
+}
+header .nav-menu li:nth-child(6) a{
+    background-color: #ff0000;
+}
+header .nav-menu li:nth-child(7) a{
+    background-color: #898989;
+}
+header .nav-menu a{
+    display: block;
+    padding: 3px 15px;
+    border: solid transparent 2px;
+    text-decoration-line: none;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: 700;
+    color: #ffffff;
+}
+header .nav-menu a:hover{
+    border-bottom: solid #122b40 2px;
+}
+.slider_preview{
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 19px;
+    color: #00aedb;
 }
 .clearfix {
     overflow: auto;
