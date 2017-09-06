@@ -29,12 +29,46 @@ header .logo h1{
     margin-top: 15px;
     margin-top: 16px;
 }
+header .socio ul{
+    padding: 0;
+    margin: 0;
+}
 header .socio ul li{
     display: inline-block;
 }
 .FTop_nav-menu{
     padding: 20px 0;
 }
+.menu-trigger{
+    text-align: center;
+    display: none;
+    padding: 10px;
+    background-color: #5988d5;
+    color: #ffffff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 700px) {
+    nav li {
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid #222222;
+    }
+    nav ul li a{
+        display: block;
+        width: 100% !important;
+    }
+    nav ul{
+        padding-left: 0;
+        display: none;
+    }
+    .menu-trigger{
+        display: block;
+    }
+}
+
 .form{
     width: auto;
     margin-top: 17px;

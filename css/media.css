@@ -21,8 +21,16 @@
 }
 
 /* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {
-
+@media only screen and (max-width : 320px){
+    html body{
+        overflow-x: hidden;
+    }
+    html{
+        overflow-x: hidden;
+    }
+    .slider_preview{
+        text-align: center !important;
+    }
 }
 
 
