@@ -17,7 +17,38 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+    .sidebar{
+        width: 100% !important;
+    }
+    .content-area{
+        width: 100% !important;
+    }
+    .content-area h2{
+        font-size: 17px !important;
+        text-align: center !important;
+        padding-left: 30px !important;
+    }
+    .content-area p{
+        font-size: 10px !important;
+        text-align: center;
+    }
+    .inline-image{
+        display: none !important;
+    }
+    .data_today{
+        margin: 0 auto !important;
+        width: 30px !important;
+    }
+    .data_today .number{
+        font-size:10px !important;
+        padding: 3px !important;
+    }
+    .data_today .mouth{
+        margin: 0 auto !important;
+        float: none !important;
+        font-size:10px !important;
+        padding: 3px !important;
+    }
 }
 
 /* Custom, iPhone Retina */
