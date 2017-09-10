@@ -12,11 +12,23 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-
+    #main{
+        padding: 0 5px !important;
+    }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+    header{
+        padding-bottom: 20px !important;
+    }
+    header .input_btn{
+        font-size: 12px !important;
+    }
+    #main{
+        overflow: visible;
+        padding: 0 5px !important;
+    }
     .sidebar{
         width: 100% !important;
     }
@@ -49,6 +61,17 @@
         font-size:10px !important;
         padding: 3px !important;
     }
+    .main .nav-img_wrap img {
+        float: right !important;
+        width: 100% !important;
+    }
+    .col-xs-4{
+        padding-right: 0 !important;
+    }
+    .tab{
+        font-size: 12px !important;
+    }
+    
 }
 
 /* Custom, iPhone Retina */

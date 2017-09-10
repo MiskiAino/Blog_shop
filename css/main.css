@@ -211,6 +211,7 @@ header .nav-menu a:hover{
 #main{
     padding: 0 30px 100px 30px;
     background-color: #fff;
+    width: 100% !important;
 }
 .image_wrap{
     border: solid 1px #c0c0c0;
@@ -251,6 +252,9 @@ header .nav-menu a:hover{
     color: #fff;
     font-weight: 600;
 }
+.fix_linespace{
+    overflow-x: hidden !important;
+}
 .example3 span {
     font-size:16px;
     font-weight: 600;
@@ -263,7 +267,9 @@ header .nav-menu a:hover{
 }
 /*???????????tabs*?????????????????????/ */
 .main{
-    width: 100%;
+    width: auto;
+    text-align: center;
+    overflow: visible;
 }
 .tabs{
     position: relative;
@@ -313,6 +319,7 @@ header .nav-menu a:hover{
     font-weight: 700;
 }
 .nav_blog_element{
+    width: 100%;
     padding: 15px 0;
     border-bottom: 1px solid#c0c0c0;
 }
